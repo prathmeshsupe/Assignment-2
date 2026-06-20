@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturals Ice Cream - The Original Twist</title>
+  <meta name="description" content="Recreating the iconic Naturals Ice Cream experience. Handcrafted ice creams made with only three ingredients: Fruit, Milk, and Sugar. Estd 1984.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    🍃 Free delivery on orders above ₹400 • Try our seasonal Alphonso Mango specials! 🍃
+  </div>
+
+  <!-- Header -->
+  <header class="main-header" id="main-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="logo-link" id="logo-link">
+        <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" stroke="#095c2f" stroke-width="8" />
+          <path d="M30 65V35L50 55L70 35V65" stroke="#0ebd62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="10" fill="#c39c59" />
+        </svg>
+        <div>
+          <span class="logo-text">NATURALS</span>
+          <span class="logo-sub">ESTD 1984</span>
+        </div>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">Our Story</a></li>
+          <li><a href="#locator" class="nav-link">Locator</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#whats-new" class="nav-link">What's New</a></li>
+          <li><a href="#recipes" class="nav-link">Recipes</a></li>
+          <li><a href="#franchise" class="nav-link">Franchise</a></li>
+        </ul>
+      </nav>
+
+      <!-- Actions (Search & Order Button) -->
+      <div class="header-actions">
+        <div class="search-wrapper">
+          <span class="search-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+          <input type="text" placeholder="Search Products..." class="search-input" id="search-input">
+        </div>
+        <button class="btn-primary" id="order-btn">Order Now</button>
+        
+        <!-- Mobile Menu Toggle -->
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider" id="hero-slider">
+    <div class="slider-container" id="slider-container">
+      
+      <!-- Slide 1 -->
+      <div class="slide">
+        <div class="slide-content">
+          <div class="slide-logo-badge">NATURALS ORIGINAL</div>
+          <h1 class="slide-title">THE ORIGINAL TWIST</h1>
+          <p class="slide-subtitle">An epic collaboration between Mumbai's coolest & hottest. Real fruits, real taste.</p>
+          <a href="#products" class="slide-btn">Explore Flavors</a>
+        </div>
+        <div class="slide-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80" alt="Alphonso Mango Ice Cream scoops" class="slide-img">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <div class="slide-content">
+          <div class="slide-logo-badge">NATURALS TROPICAL</div>
+          <h1 class="slide-title">SITAPHAL MAGIC</h1>
+          <p class="slide-subtitle">Our signature Custard Apple ice cream crafted with real hand-deseeded fruit pulp.</p>
+          <a href="#products" class="slide-btn">View Seasonal Best</a>
+        </div>
+        <div class="slide-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80" alt="Sitaphal Creamy Ice Cream" class="slide-img">
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <div class="slide-content">
+          <div class="slide-logo-badge">NATURALS CHOCOLATE</div>
+          <h1 class="slide-title">RICH CHOCO BITE</h1>
+          <p class="slide-subtitle">A velvety chocolate ice cream embedded with crunchy chocolate bits for chocolate lovers.</p>
+          <a href="#products" class="slide-btn">Order Online</a>
+        </div>
+        <div class="slide-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="Rich Chocolate Ice Cream" class="slide-img">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Slider Controls -->
+    <button class="slider-arrow prev" id="slide-prev">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="slider-arrow next" id="slide-next">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="quote-section text-center">
+    <div class="container quote-container">
+      <p class="quote-text">"If I were to sell ice cream, I will invest in trees."</p>
+      <p class="quote-author">— Late Sri R S Kamath, <span>Founder of Naturals Ice Cream (1948 - 2024)</span></p>
+    </div>
+  </section>
+
+  <!-- Video Spotlight Section -->
+  <section class="video-section-wrapper">
+    <div class="container">
+      <div class="video-container" id="video-container">
+        <div class="video-thumbnail-wrapper" id="video-play-btn">
+          <img src="https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=1200&q=80" alt="Naturals Ice Cream tubs under trees" class="video-thumb">
+          <div class="video-overlay">
+            <div class="video-play-box">
+              <div class="play-button-outer">
+                <svg class="play-svg" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="video-text-content">
+                <p>Tree to Treat</p>
+                <h3>Watch Our Story</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Grid Section (Trees & Fruits) -->
+  <section class="philosophy-section">
+    <div class="container">
+      <div class="philosophy-grid">
+        
+        <!-- Grid Item 1 -->
+        <div class="philosophy-item">
+          <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=600&q=80" alt="Lush Green Forest River" class="philosophy-img">
+          <div class="philosophy-overlay">
+            <div class="philosophy-text">
+              <h3 class="philosophy-title">Trees Give Joy. We Bring It To You.</h3>
+              <p class="philosophy-sub">Rooted in Nature</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item 2 -->
+        <div class="philosophy-item">
+          <img src="https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=600&q=80" alt="Woman gathering fruit in lush forest" class="philosophy-img">
+          <div class="philosophy-overlay">
+            <div class="philosophy-text">
+              <h3 class="philosophy-title">Made Only In Small Batches.</h3>
+              <p class="philosophy-sub">Freshness Guaranteed</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item 3 -->
+        <div class="philosophy-item">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" alt="Beautiful sunbeams through green trees" class="philosophy-img">
+          <div class="philosophy-overlay">
+            <div class="philosophy-text">
+              <h3 class="philosophy-title">Trees Give Oxygen. So Do We.</h3>
+              <p class="philosophy-sub">Breathe Freshness</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Item 4 -->
+        <div class="philosophy-item">
+          <img src="https://images.unsplash.com/photo-1488459718432-01055e67e1f5?auto=format&fit=crop&w=600&q=80" alt="Farmer with fresh harvest of fruits" class="philosophy-img">
+          <div class="philosophy-overlay">
+            <div class="philosophy-text">
+              <h3 class="philosophy-title">Trees Give Fruits. We Do The Rest.</h3>
+              <p class="philosophy-sub">Pure Ingredients</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasonal Best Section -->
+  <section class="seasonal-best-section" id="products">
+    <div class="container">
+      <h2 class="section-title text-center">Seasonal Best</h2>
+      
+      <div class="product-grid">
+        
+        <!-- Card 1 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=400&q=80" alt="Alphonso Mango Scoop" class="product-img">
+            <span class="product-badge">Best Seller</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Alphonso Mango</h3>
+            <p class="product-meta">Fruit Ice Cream</p>
+            <div class="product-footer">
+              <span class="product-price">₹95</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=400&q=80" alt="Mango & Pineapple Scoop" class="product-img">
+            <span class="product-badge">New</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Mango & Pineapple</h3>
+            <p class="product-meta">Fruit Combo Ice Cream</p>
+            <div class="product-footer">
+              <span class="product-price">₹95</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=400&q=80" alt="Sitaphal Scoop" class="product-img">
+            <span class="product-badge">Classic</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Sitaphal (Custard Apple)</h3>
+            <p class="product-meta">Fruit Ice Cream</p>
+            <div class="product-footer">
+              <span class="product-price">₹95</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1580915411954-282cb1b0d780?auto=format&fit=crop&w=400&q=80" alt="Black Grape Scoop" class="product-img">
+            <span class="product-badge">Trending</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Black Grape</h3>
+            <p class="product-meta">Fruit Ice Cream</p>
+            <div class="product-footer">
+              <span class="product-price">₹95</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&w=400&q=80" alt="Chili Ice Cream" class="product-img">
+            <span class="product-badge">Exotic</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Chili Ice Cream</h3>
+            <p class="product-meta">Spicy Sweet Twist</p>
+            <div class="product-footer">
+              <span class="product-price">₹105</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&q=80" alt="Choco Bite Scoop" class="product-img">
+            <span class="product-badge">Classic</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Choco Bite</h3>
+            <p class="product-meta">Chocolate Ice Cream</p>
+            <div class="product-footer">
+              <span class="product-price">₹95</span>
+              <button class="btn-buy">BUY</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Extensions Section -->
+  <section class="brand-section" id="whats-new">
+    <div class="container">
+      <div class="brand-columns">
+        
+        <!-- Sundaes Column -->
+        <div class="brand-item sundaes">
+          <img src="https://images.unsplash.com/photo-1580915411954-282cb1b0d780?auto=format&fit=crop&w=500&q=80" alt="Delicious Sundae Dessert" class="brand-bg-img">
+          <div class="brand-overlay">
+            <span class="brand-logo-txt">SUNDAES</span>
+            <p class="brand-desc">Decadent Layers of Joy</p>
+          </div>
+        </div>
+
+        <!-- Naturals Now Column -->
+        <div class="brand-item naturals-now">
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=500&q=80" alt="Modern Ice Cream Shop Interior" class="brand-bg-img">
+          <div class="brand-overlay">
+            <span class="brand-logo-txt">NATURALS NOW</span>
+            <p class="brand-desc">Churned Fresh Before Your Eyes</p>
+          </div>
+        </div>
+
+        <!-- Bombay Factory Column -->
+        <div class="brand-item bombay-factory">
+          <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80" alt="Fresh cold brew or organic milk bottles" class="brand-bg-img">
+          <div class="brand-overlay">
+            <span class="brand-logo-txt">BOMBAY FACTORY</span>
+            <p class="brand-desc">By Naturals Ice Cream</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ingredient Story Section -->
+  <section class="ingredient-section" id="recipes">
+    <div class="container">
+      <h2 class="section-title text-center">Ingredient Story</h2>
+      
+      <div class="ingredient-grid">
+        
+        <!-- Ingredient 1 -->
+        <div class="ingredient-item">
+          <div class="ingredient-icon-wrapper">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <h3 class="ingredient-item-title">1. Milk</h3>
+          <p class="ingredient-desc">Pure, full-cream milk sourced directly from local dairy farms. Pasteurized and boiled to build the perfect thick base without preservatives.</p>
+        </div>
+
+        <!-- Ingredient 2 -->
+        <div class="ingredient-item">
+          <div class="ingredient-icon-wrapper">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <h3 class="ingredient-item-title">2. Fruits</h3>
+          <p class="ingredient-desc">Fresh, hand-picked seasonal fruits sourced from the best orchards across the country. De-seeded manually to keep the fruit fibers intact.</p>
+        </div>
+
+        <!-- Ingredient 3 -->
+        <div class="ingredient-item">
+          <div class="ingredient-icon-wrapper">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 22 22 22"></polygon>
+            </svg>
+          </div>
+          <h3 class="ingredient-item-title">3. Sugar</h3>
+          <p class="ingredient-desc">Only high-grade pharmaceutical sugar is used, ensuring the right amount of sweetness without masking the natural fruit profiles.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="wavy-separator"></div>
+  </section>
+
+  <!-- Franchise Queries Section -->
+  <section class="franchise-section" id="franchise">
+    <div class="franchise-bg-overlay"></div>
+    <div class="container franchise-container">
+      <span class="franchise-tag">Partner With Us</span>
+      <h2 class="franchise-title">Franchise Queries</h2>
+      <p class="franchise-desc">Join the Naturals family and bring the taste of original fruit ice creams to your city. We offer comprehensive setup, training, and operational support.</p>
+      <button class="btn-accent" id="franchise-btn">Apply Now</button>
+    </div>
+  </section>
+
+  <!-- Instagram Feed Section -->
+  <section class="instagram-section">
+    <div class="container">
+      <div class="instagram-header">
+        <span class="instagram-tag">Follow <span>@naturalicecream</span> on Instagram</span>
+      </div>
+      
+      <div class="instagram-grid">
+        
+        <!-- Photo 1 -->
+        <div class="instagram-item">
+          <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=300&q=80" alt="Instagram Post 1" class="instagram-img">
+          <div class="instagram-hover-overlay">
+            <svg class="instagram-icon" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="instagram-item">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=300&q=80" alt="Instagram Post 2" class="instagram-img">
+          <div class="instagram-hover-overlay">
+            <svg class="instagram-icon" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="instagram-item">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=300&q=80" alt="Instagram Post 3" class="instagram-img">
+          <div class="instagram-hover-overlay">
+            <svg class="instagram-icon" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="instagram-item">
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=300&q=80" alt="Instagram Post 4" class="instagram-img">
+          <div class="instagram-hover-overlay">
+            <svg class="instagram-icon" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div class="instagram-item">
+          <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=300&q=80" alt="Instagram Post 5" class="instagram-img">
+          <div class="instagram-hover-overlay">
+            <svg class="instagram-icon" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="instagram-actions">
+        <button class="btn-secondary" id="load-more-btn">Load More</button>
+        <button class="btn-primary" id="ig-follow-btn">Follow Us on Instagram</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Brand History Section -->
+  <section class="history-section" id="about">
+    <div class="container history-container">
+      <h2 class="history-title">From Humble Beginnings to Ice Cream Excellence:<br>The Story of Naturals Ice Cream</h2>
+      <p class="history-text">
+        In the bustling streets of Juhu, Mumbai, 1984, Sri R S Kamath pioneered a revolutionary ice cream format. Disheartened by synthetic additives, he created ice creams from pure cow milk, pharmaceutical-grade sugar, and hand-selected fresh fruits. The concept was simple yet incredibly challenging: capture the seasonal soul of fruits like Alphonso Mango, Sitaphal, and Tender Coconut without flavorings or artificial stabilizers.
+      </p>
+      <p class="history-text">
+        What began in a small 400 sq. ft. kitchen has blossomed into a beloved national icon. Every scoop of Naturals remains true to Kamath's vision of purity, offering a rich, creamy fruit burst that cannot be duplicated. Welcome to the legacy of natural taste.
+      </p>
+      <button class="btn-primary" id="story-read-btn">Read Full Story</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      
+      <!-- Footer Top Column Grid -->
+      <div class="footer-top">
+        
+        <div>
+          <h4 class="footer-column-title">About Us</h4>
+          <p class="footer-text">
+            Naturals Ice Cream has been pioneer in natural ice creams since 1984. We pride ourselves on creating handcrafted ice creams made with only three ingredients: Fruit, Milk, and Sugar.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#locator">Locator</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#whats-new">What's New</a></li>
+            <li><a href="#franchise">Franchise</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Stores</h4>
+          <ul class="footer-links">
+            <li><a href="#">Mumbai (Juhu)</a></li>
+            <li><a href="#">Pune</a></li>
+            <li><a href="#">Bangalore</a></li>
+            <li><a href="#">Delhi NCR</a></li>
+            <li><a href="#">Hyderabad</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Support & Careers</h4>
+          <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Franchise Queries</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Social/Copyright -->
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Kamaths Ourtimes Ice Creams Pvt. Ltd. All rights reserved.</p>
+        
+        <div class="social-links">
+          
+          <a href="#" class="social-icon-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon-link" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon-link" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11C4.482 20.5 12 20.5 12 20.5s7.518 0 9.388-.553a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
